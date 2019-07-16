@@ -6,6 +6,17 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "keywords": [
+    "css"
+  ],
+  "author": "Peerasak Unsakon",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clonezer/hidden-css.git"
+  },
+  "bugs": {
+    "url": "https://github.com/clonezer/hidden-css/issues"
+  },
+  "homepage": "https://github.com/clonezer/hidden-css#readme"
 }
