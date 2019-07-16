@@ -1,0 +1,71 @@
+.hidden-xs-only {display: none;}
+.hidden-sm-only {display: block;}
+.hidden-sm-and-down {display: none;}
+.hidden-sm-and-up {display: block;}
+.hidden-md-only {display: block;}
+.hidden-md-and-down {display: none;}
+.hidden-md-and-up {display: block;}
+.hidden-lg-only {display: block;}
+.hidden-lg-and-down {display: none;}
+.hidden-lg-and-up {display: block;}
+.hidden-xl-only {display: block;}
+
+/* breakpoint-sm */
+@media screen and (min-width: 600px) {
+    .hidden-xs-only {display: block;}
+    .hidden-sm-only {display: none;}
+    .hidden-sm-and-down {display: none;}
+    .hidden-sm-and-up {display: none;}
+    .hidden-md-only {display: block;}
+    .hidden-md-and-down {display: none;}
+    .hidden-md-and-up {display: block;}
+    .hidden-lg-only {display: block;}
+    .hidden-lg-and-down {display: none;}
+    .hidden-lg-and-up {display: block;}
+    .hidden-xl-only {display: block;}
+}
+
+/* breakpoint-md */
+@media screen and (min-width: 960px) {
+    .hidden-xs-only {display: block;}
+    .hidden-sm-only {display: block;}
+    .hidden-sm-and-down {display: block;}
+    .hidden-sm-and-up {display: none;}
+    .hidden-md-only {display: none;}
+    .hidden-md-and-down {display: none;}
+    .hidden-md-and-up {display: none;}
+    .hidden-lg-only {display: block;}
+    .hidden-lg-and-down {display: none;}
+    .hidden-lg-and-up {display: block;}
+    .hidden-xl-only {display: block;}
+}
+
+/* breakpoint-lg */
+@media screen and (min-width: 1248px) {
+    .hidden-xs-only {display: block;}
+    .hidden-sm-only {display: block;}
+    .hidden-sm-and-down {display: block;}
+    .hidden-sm-and-up {display: none;}
+    .hidden-md-only {display: block;}
+    .hidden-md-and-down {display: block;}
+    .hidden-md-and-up {display: none;}
+    .hidden-lg-only {display: none;}
+    .hidden-lg-and-down {display: none;}
+    .hidden-lg-and-up {display: none;}
+    .hidden-xl-only {display: block;}
+}
+
+/* breakpoint-xl */
+@media screen and (min-width: 1888px) {
+    .hidden-xs-only {display: block;}
+    .hidden-sm-only {display: block;}
+    .hidden-sm-and-down {display: block;}
+    .hidden-sm-and-up {display: none;}
+    .hidden-md-only {display: block;}
+    .hidden-md-and-down {display: block;}
+    .hidden-md-and-up {display: none;}
+    .hidden-lg-only {display: block;}
+    .hidden-lg-and-down {display: block;}
+    .hidden-lg-and-up {display: none;}
+    .hidden-xl-only {display: none;}
+}
